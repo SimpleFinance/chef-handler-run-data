@@ -4,7 +4,7 @@ contains the information about the node at the end of the previous run.
 
 ## Usage
 The Chef docs [1] lay out a pretty simple way to use handlers by leveraging the
-chef\_handler resource. Just ship the chef-handler-sensu-cleaner.rb file to
+chef\_handler resource. Just ship the chef-handler-run-data.rb file to
 your handlers location and declare a new handler:
 
 ```ruby
