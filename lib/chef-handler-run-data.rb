@@ -24,7 +24,7 @@ require 'chef'
 require 'chef/handler'
 
 class RunData < Chef::Handler
-  attr_reader :config
+  attr_reader :options
 
   def initialize(options = defaults)
     @path = options[:path]
